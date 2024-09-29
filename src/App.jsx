@@ -37,14 +37,6 @@ export const App = () => {
           No goods selected
         </h1>
       )}
-      <h1 className="title is-flex is-align-items-center">
-        <button
-          data-cy="ClearButton"
-          type="button"
-          className="delete ml-3"
-          onClick={() => setSelected('')}
-        />
-      </h1>
 
       <table className="table">
         <tbody>
